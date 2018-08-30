@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MainController">
+   <children>
+      <Button fx:id="gryffindorHouse" layoutX="45.0" layoutY="167.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="180.0" style="-fx-background-color: rgba( 138, 22, 18,0.8);" text="GRYFFINDOR" textFill="WHITE">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="17.0" />
+         </font>
+         <styleClass>
+            <String fx:value="22" />
+            <String fx:value="18" />
+         </styleClass>
+      </Button>
+      <Label fx:id="schoolLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="149.0" layoutY="119.0" prefHeight="20.0" prefWidth="535.0" text="SCHOOL OF WITCHCRAFT &amp; WIZARDRY" textAlignment="CENTER">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="21.0" />
+         </font></Label>
+      <Button fx:id="slytherinHouse" layoutX="593.0" layoutY="167.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="180.0" style="-fx-background-color: rgba(4, 92, 20,0.8);" text="SLYTHERIN" textFill="WHITE">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="17.0" />
+         </font></Button>
+      <Button fx:id="ravenclawHouse" layoutX="593.0" layoutY="478.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="180.0" style="-fx-background-color: rgba(  4, 67, 131,0.8);" text="RAVENCLAW" textFill="WHITE">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="17.0" />
+         </font></Button>
+      <Button fx:id="hufflepuffHouse" layoutX="45.0" layoutY="478.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="180.0" style="-fx-background-color: rgba( 222, 183, 21,0.8);" text="HUFFLEPUFF" textFill="WHITE">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="17.0" />
+         </font></Button>
+      <Label fx:id="hogwarts" alignment="CENTER" contentDisplay="CENTER" prefHeight="136.0" prefWidth="800.0" text="HOGWARTS" textAlignment="CENTER">
+         <font>
+            <Font name="Harry P" size="100.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
